@@ -48,7 +48,7 @@
 		7D37C3ACE1724635B48FA618 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C80AC5C2BB54A99818823C1 /* EvilIcons.ttf */; };
 		822567EDC57C4F09A05BCB36 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2B78E6FBD549058833E16F /* FontAwesome5_Brands.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		85F59F89230BD3F30093DAFC /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85F59F88230BD3F30093DAFC /* iconfont.ttf */; };
+		85F5A04C230E45690093DAFC /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85F5A04B230E45690093DAFC /* iconfont.ttf */; };
 		9098E6BB91F144529472C2EF /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 069A6C2B368A427FB1080067 /* Octicons.ttf */; };
 		965723EDB1F74854A9C311A6 /* libRCTVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F0489E3B454AC8958DCCC0 /* libRCTVideo.a */; };
 		99DC6DDF070845E3BE18CC4A /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E90F64EDCBC44DC18A00B99C /* FontAwesome5_Solid.ttf */; };
@@ -435,7 +435,7 @@
 		761E308A3A024548895AA018 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		85F59F88230BD3F30093DAFC /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		85F5A04B230E45690093DAFC /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		8A94449DA9EF4D67B0CEB4DA /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		8C80AC5C2BB54A99818823C1 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		93DCF2BBAF054195846AB40B /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
@@ -597,7 +597,7 @@
 		13B07FAE1A68108700A75B9A /* News_Pro */ = {
 			isa = PBXGroup;
 			children = (
-				85F59F87230BD3F30093DAFC /* fonts */,
+				85F5A04A230E45690093DAFC /* fonts */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -750,15 +750,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		85F59F87230BD3F30093DAFC /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				85F59F88230BD3F30093DAFC /* iconfont.ttf */,
-			);
-			name = fonts;
-			path = "../../../OneM-master/ios/one/fonts";
-			sourceTree = "<group>";
-		};
 		85F59FC3230CE9310093DAFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -774,6 +765,15 @@
 				85F5A00A230CE94F0093DAFC /* libBVLinearGradient.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		85F5A04A230E45690093DAFC /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				85F5A04B230E45690093DAFC /* iconfont.ttf */,
+			);
+			name = fonts;
+			path = News_Pro/fonts;
 			sourceTree = "<group>";
 		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
@@ -1357,7 +1357,7 @@
 				9098E6BB91F144529472C2EF /* Octicons.ttf in Resources */,
 				D531A68AAABF4F378627A6F0 /* SimpleLineIcons.ttf in Resources */,
 				CE08F4CC56C3495D999DA8FB /* Zocial.ttf in Resources */,
-				85F59F89230BD3F30093DAFC /* iconfont.ttf in Resources */,
+				85F5A04C230E45690093DAFC /* iconfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
