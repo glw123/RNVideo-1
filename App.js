@@ -15,7 +15,7 @@ const Navigator = StackNavigator(RouteConfig, StackNavigatorConfig);
 export default class App extends PureComponent {
   render() {
     return (
-      //添加注释
+      //添加注释1
       <Navigator />
     )
   }
