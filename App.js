@@ -15,9 +15,7 @@ const Navigator = StackNavigator(RouteConfig, StackNavigatorConfig);
 export default class App extends PureComponent {
   render() {
     return (
-
       <Navigator />
-
     )
   }
 }
